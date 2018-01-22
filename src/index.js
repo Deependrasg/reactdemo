@@ -24,10 +24,28 @@ class Deep1 extends React.Component{
 
 class Deepsingh extends React.Component{
 	render(){
-		return (<h4> <Deep/> <Deep1/> </h4>);
+		return (<div> <Deep/> <Deep1/> </div>);
 	}
 }
 
 
 ReactDOM.render(<Deepsingh/>, document.getElementById('root'));
 registerServiceWorker();
+// 
+
+function first(name="picachu",data="3000"){
+	return <div>
+			<h1 className='h1'> "working with function and with {name},{data} is and showing function and data "</h1>
+	       <h2>heelll</h2> 
+			</div>
+	
+}
+
+
+
+
+ReactDOM.render(
+	first('heee','hadsfadsfl'),
+	document.getElementById('root1')
+	
+)
